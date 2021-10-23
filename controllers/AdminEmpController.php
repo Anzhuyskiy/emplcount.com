@@ -5,7 +5,7 @@ namespace app\controllers;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 
-class AdminMainController extends Controller
+class AdminEmpController extends Controller
 {
     public function behaviors()
     {
@@ -21,9 +21,8 @@ class AdminMainController extends Controller
             ],
         ];
     }
-
     public function actionIndex(){
-        return $this->render('admin-main-page');
+        return $this->render('admin-emp');
     }
 
 }

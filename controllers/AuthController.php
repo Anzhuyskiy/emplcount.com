@@ -30,7 +30,6 @@ class AuthController extends Controller
         }else{
             return $this->redirect('/auth/index');
         }
-
     }
 
     public function actionLogout()
