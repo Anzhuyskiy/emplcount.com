@@ -23,7 +23,7 @@ $this->title = 'My Yii Application';
             <li>Нужна форма, где можно посмотреть в каких отделах состоит конкретный сотрудник</li>
         </ul>
     </div>
-    <p class="lead">For begin you need to switch to login page and fill the form using one of the following accounts:</p>
+    <p class="lead">For begin you need to go to the login page and fill out the form using the following account:</p>
     <table class="col-1 table">
         <tr>
             <th>Role</th>
@@ -36,4 +36,11 @@ $this->title = 'My Yii Application';
             <td>111</td>
         </tr>
     </table>
+    <div class="text-center bg-transparent">
+        <h1 class="display-4">P.S.</h1>
+        <p>Спасибо за тестовое задание, понравилось реализовывать связь "многие ко многим". Как-то раньше не довожтдось делать это на практике.</p>
+        <p>Извиняюсь за столь долгую реализацию, ноложились семейные обстоятельства и побочные эффекты после прививки от короны.
+        Реализация конечно оставляет желать лучшего, я это понимаю, пропущены проверки, плохо структурирован код. отсутвие полной валидации и прочее.
+        Но собственно для этого я и ищу уже состоявшуюся команду в составе которой смогу набраться опыта в этих вопросах.</p>
+    </div>
 </div>
